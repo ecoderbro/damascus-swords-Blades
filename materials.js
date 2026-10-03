@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => { document.querySelector('.menu')?.addEventListener('click', () => document.querySelector('.nav-links')?.classList.toggle('open')); document.querySelectorAll('.material').forEach((card, i) => card.style.transitionDelay = `${i * 40}ms`); });
